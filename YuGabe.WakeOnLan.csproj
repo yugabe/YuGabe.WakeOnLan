@@ -15,6 +15,7 @@
 		<PackageProjectUrl>https://github.com/yugabe/WakeOnLan</PackageProjectUrl>
 		<RepositoryType>git</RepositoryType>
 		<PackageTags>wol wake-on-lan wakeonlan dotnet tool cli</PackageTags>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 	</PropertyGroup>
 
 </Project>
