@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<PackAsTool>true</PackAsTool>
+		<ToolCommandName>wol</ToolCommandName>
+		<Version>1.0.0</Version>
+		<Authors>Gabe Szabo</Authors>
+		<Company>podNET Hungary</Company>
+		<Product>Wake-on-LAN .NET Tool</Product>
+		<Description>A no-nonsense, simple Wake-on-LAN implementation, that can be invoked via the command 'wol'.</Description>
+		<PackageProjectUrl>https://github.com/yugabe/WakeOnLan</PackageProjectUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageTags>wol wake-on-lan wakeonlan dotnet tool cli</PackageTags>
+	</PropertyGroup>
+
+</Project>
