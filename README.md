@@ -20,6 +20,7 @@ wol <target MAC address>
 ## Remarks
 For Wake-on-LAN to work, make sure that:
 - the current machine and the target machine are on the same local subnet, 
+  - this is tantamount, as there are certain features that might make you use a different subnet even if you don't realize (Windows' "Projecting to this PC", for example, creates a virtualized Wi-Fi Direct adapter on a different subnet); there's no plans currently to support choosing which adapter to use specifically, but it would be possible to set the IP address to send the packet from (thus, indirectly, choosing the adapter to use) -- feel free to send a PR if you want to add this to the client,
 - the UDP port 12287 or UDP broadcasting is not blocked any firewalls on the network (including Windows Firewall and routers/switches),
 - Wake-on-LAN is supported by the target machine, as not all motherboards/Ethernet cards support it, and some only when the computer is sleeping,
 - Wake-on-LAN is enabled by the target machine (usually in UEFI/BIOS).
